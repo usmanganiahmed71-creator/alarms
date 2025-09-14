@@ -16,7 +16,7 @@ def set_alarm(alarm_time):
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
                 time.sleep(1)
-                if input("STOP to stop:")=="STOP":
+                if input("STOP NOW to stop:")=="STOP NOW":
                     break
                 else:
                     print("RETRY")
